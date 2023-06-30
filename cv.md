@@ -8,7 +8,7 @@
 ## About:
 #### I am 31 years old future Frontend developer. My priority is to get new information and knowledge.
 
-*
+
 ## Skills:
 
 * HTML/CSS basics
