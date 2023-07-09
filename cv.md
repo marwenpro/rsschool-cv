@@ -15,7 +15,7 @@
 * LEMP
 * Adobe Photoshop, Lightroom
 * Ubuntu server administration
-## Code example:2
+## Code example:
 
 function multiply(a, b){
 return a * b;
