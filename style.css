@@ -1,0 +1,166 @@
+html {
+    box-sizing:border-box;
+}
+*, *:after, *:before {
+box-sizing: inherit;
+}
+
+.main-container {
+    display: flex;
+    width: 960px;
+    margin: 40px auto;
+    background-color:#fff;
+    justify-content: space-between;
+
+}
+.aside-block {
+    width: 30%;
+}
+.aside-footer {
+    background-color: #eec3c1;
+    padding-top: 10px;
+    padding-bottom: 130px;
+    
+}
+.profile-info {
+    background-color: #fff;
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+.profile-photo-img {    
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff; 
+    border-radius: 50%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.name {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    font-style: 16px;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    margin-bottom: 15px;
+}
+.position {
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #808080;
+}
+.background-aside-headers {
+    margin: 0 auto;
+    width: 200px;
+	height: 30px;
+	background:#333;
+    margin-bottom: 20px;
+}
+.aside-header {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding-top: 5px;
+}
+.contacts {
+    margin-top: -25px;
+}
+.contacts-text,
+.language-text,
+.hobbie-text {
+    color: #363636;
+    text-decoration: none;
+    line-height: 21px;
+    display: flex;
+    flex-direction: column;
+    display: inline-block;
+}
+.lngugages,
+.hobbies {
+margin-top: 30px;
+}
+
+.contact-items,
+.language,
+.hobbie {
+    margin-left: 45px;
+    line-height: 2;
+    margin-bottom: 20px;
+    font-size: 17px;
+}
+.main-block {   
+    max-width: 65%;
+    background-color: #fff;
+}
+.mainblock-text {
+    margin-left: 50px;
+  }
+.fa-user,
+.fa-graduation-cap,
+.fa-code,
+.fa-folder,
+.fa-hand-sparkles {
+    background: #eec3c1;
+    padding: 10px;
+    border-radius: 50%;
+    float: left;
+    /* margin-top: 5px; */
+    font-size: 15px;
+  }
+  .icon-box-fix {
+    padding: 10px 11px !important;
+}
+.icon-box-fix2 {
+    padding: 10px 9px !important;
+}
+.hr-main {  
+    border: 1px solid #000;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    margin-top: -7px;
+}
+.main-block-text {
+    margin-bottom: 35px;
+}
+.education-text,
+.main-block-text {
+    font-size: 16px;
+}
+.projects-img {
+width: 100%;
+margin-bottom: 10px;
+border: 1px solid #000;
+}
+.years {
+    float: right;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+    margin: 0 auto;
+    font-style: 16px;
+    font-weight: 400;
+    border-top: 1px solid #230a0a;
+    /* margin-top: 1px; */
+    padding-top: 40px;
+    margin-bottom: 25px;
+
+}
+.footer-school-img {
+    width: 80px;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto */
+}
+.footer-git-img {
+    width: 30px;
+}
+.class {
+    font-style: 16px;
+    font-weight: 400;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 37px;
+}
